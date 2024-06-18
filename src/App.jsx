@@ -1,10 +1,18 @@
 import React from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer';
+import Home from './pages/Home.jsx';
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-5xl'>Quick Translations</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
