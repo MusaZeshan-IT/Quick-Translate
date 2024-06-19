@@ -1,0 +1,8 @@
+Small Headings:
+Light Blue => text-[rgb(60,146,255)]
+
+Large Headings:
+Dark Blue => text-[rgb(19,40,126)]
+
+Text Color:
+Light Gray => text-[rgb(129,135,150)]
