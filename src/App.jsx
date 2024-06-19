@@ -1,18 +1,20 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer';
 import Home from './pages/Home.jsx';
+import NavHero from './components/Home/NavHero.jsx';
+import './App.css';
 
 const App = () => {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <div className='app'>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
