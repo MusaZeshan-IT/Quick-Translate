@@ -3,8 +3,8 @@ import NavHero from '../components/Home/NavHero';
 import HowItWorks from '../components/HowItWorks';
 import UniqueFeatures from '../components/UniqueFeatures';
 import Cover from '../components/Cover';
-import CoveredLangs from '../components/CoveredLangs';
-import Services from '../components/Services';
+import CoveredLangs from '../components/shared/CoveredLangs';
+import Services from '../components/shared/Services';
 
 const Home = () => {
     return (

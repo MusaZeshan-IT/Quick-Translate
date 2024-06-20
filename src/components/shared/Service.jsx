@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Service = ({ imgUrl, title, desc }) => {
     return (
-        <div className='flex p-5 flex-col items-center justify-center bg-[rgb(247,247,247)] w-[340px] h-[380px] rounded-lg shadow-md shadow-gray-200'>
+        <div className='shadow-[0px_0px_16px_rgba(0,0,0,0.1)] flex p-5 flex-col items-center justify-center bg-[rgb(247,247,247)] w-[340px] h-[380px] rounded-lg'>
             <div className='bg-blue-200 p-5 rounded-[50%]'>
                 <img className='h-16 w-16' src={imgUrl} alt="" />
             </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import Service from './Service';
-import S1 from '../assets/services/s1.png';
-import S2 from '../assets/services/s2.png';
-import S3 from '../assets/services/s3.png';
-import S4 from '../assets/services/s4.png';
-import S5 from '../assets/services/s5.png';
-import S6 from '../assets/services/s6.png';
+import S1 from '../../assets/services/s1.png';
+import S2 from '../../assets/services/s2.png';
+import S3 from '../../assets/services/s3.png';
+import S4 from '../../assets/services/s4.png';
+import S5 from '../../assets/services/s5.png';
+import S6 from '../../assets/services/s6.png';
 
 const Services = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import Lang from './Lang';
-import PakistanFlag from '../assets/flags/pakistani-flag.jpg'
-import AmericanFlag from '../assets/flags/american-flag.jpg'
-import IranianFlag from '../assets/flags/iranian-flag.jpg'
-import SaudiArabianFlag from '../assets/flags/saudi-arabian-flag.jpg'
+import PakistanFlag from '../../assets/flags/pakistani-flag.jpg'
+import AmericanFlag from '../../assets/flags/american-flag.jpg'
+import IranianFlag from '../../assets/flags/iranian-flag.jpg'
+import SaudiArabianFlag from '../../assets/flags/saudi-arabian-flag.jpg'
 
 const CoveredLangs = () => {
     return (
