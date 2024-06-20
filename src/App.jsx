@@ -1,8 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './components/common/Footer.jsx';
 import Home from './pages/Home.jsx';
-import NavHero from './components/Home/NavHero.jsx';
 import './App.css';
 
 const App = () => {

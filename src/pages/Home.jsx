@@ -4,6 +4,7 @@ import HowItWorks from '../components/HowItWorks';
 import UniqueFeatures from '../components/UniqueFeatures';
 import Cover from '../components/Cover';
 import CoveredLangs from '../components/CoveredLangs';
+import Services from '../components/Services';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Cover />
             <div className='px-28 flex flex-col gap-y-24'>
                 <CoveredLangs />
+                <Services />
             </div>
         </div>
     );
