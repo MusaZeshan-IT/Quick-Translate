@@ -15,7 +15,7 @@ const HowItWorks = () => {
                 </div>
                 <p className='text-center w-[610px] mt-5 leading-8 text-[rgb(129,135,150)]'>We make our process as simple as possible so that you can focus on what matters and let us take care of the rest. It is just a few clicks.</p>
             </div>
-            <div className="grid grid-cols-4 gap-10 mt-10">
+            <div className="grid lg:grid-cols-4 grid-cols-2 xl:gap-10 lg:gap-8 gap-5 mt-10">
                 <ProcessCard
                     stepNum='01'
                     title='Order Translation'
