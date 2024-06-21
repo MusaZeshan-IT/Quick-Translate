@@ -25,7 +25,7 @@ const Footer = () => {
                             <div className='flex flex-col'>
                                 <div>
                                     <h3 className='text-white font-semibold tracking-widest'>NAVIGATE</h3>
-                                    <div className='flex text-[rgb(204,204,204)] mt-4 gap-x-7'>
+                                    <div className='flex flex-wrap text-[rgb(204,204,204)] mt-4 gap-x-7 gap-y-3'>
                                         <Link>Home</Link>
                                         <Link>About Us</Link>
                                         <Link>FAQ</Link>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <div className='flex flex-col'>
                                 <div>
                                     <h3 className='text-white font-semibold tracking-widest'>CONTACT US</h3>
-                                    <div className='flex lg:flex-col text-[rgb(204,204,204)] mt-4 lg:gap-y-1 gap-x-8'>
+                                    <div className='flex lg:flex-col flex-wrap text-[rgb(204,204,204)] mt-4 lg:gap-y-1 gap-x-8 gap-y-3'>
                                         <p className='tracking-wide'>+92 3079410053</p>
                                         <p>zeshan.qaiser@gmail.com</p>
                                     </div>

@@ -13,9 +13,9 @@ const HowItWorks = () => {
                     <h3 className='text-center text-[16.5px] text-[rgb(60,146,255)]'>Our Process</h3>
                     <h2 className='mt-3 text-3xl text-center text-[rgb(19,40,126)]'>How It Works</h2>
                 </div>
-                <p className='text-center w-[610px] mt-5 leading-8 text-[rgb(129,135,150)]'>We make our process as simple as possible so that you can focus on what matters and let us take care of the rest. It is just a few clicks.</p>
+                <p className='text-center sm:w-[610px] w-full mt-5 leading-8 text-[rgb(129,135,150)]'>We make our process as simple as possible so that you can focus on what matters and let us take care of the rest. It is just a few clicks.</p>
             </div>
-            <div className="grid lg:grid-cols-4 grid-cols-2 xl:gap-10 lg:gap-8 gap-5 mt-10">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:gap-10 lg:gap-8 gap-5 mt-10">
                 <ProcessCard
                     stepNum='01'
                     title='Order Translation'

@@ -8,12 +8,12 @@ import Feature3 from '../assets/uniqueFeatures/quality3.png'
 const UniqueFeatures = () => {
     return (
         <div className='flex lg:flex-row flex-col lg:gap-x-24 gap-y-16'>
-            <div className='lg:w-1/2 w-full border-8 border-blue-500 h-[500px] mt-10'>
-                <img className='h-[550px] lg:w-[500px] w-full relative bottom-10 left-10' src={UniqueImg} alt="" />
+            <div className='lg:w-1/2 w-full border-8 border-blue-500 xs:h-[500px] 2xs-custom:h-[430px] h-[380px] mt-10'>
+                <img className='xs:h-[550px] 2xs-custom:h-[480px] h-[430px] xs-custom:w-[500px] w-full relative bottom-10 left-10' src={UniqueImg} alt="" />
             </div>
             <div className='lg:w-1/2'>
                 <h3 className='text-[rgb(60,146,255)] font-semibold text-[16.5px] tracking-wide'>High Professional Translation Agency</h3>
-                <h2 className='text-[rgb(19,40,126)] text-3xl font-black mt-3 w-[500px] leading-10'>Order Professional Translations & Interpreting in Just a Few Clicks</h2>
+                <h2 className='text-[rgb(19,40,126)] text-3xl font-black mt-3 xs-custom:xs-custom:w-[500px] leading-10'>Order Professional Translations & Interpreting in Just a Few Clicks</h2>
                 <p className='lg:mt-6 mt-4 text-[rgb(129,135,150)] leading-7'>Our team of professional translators and interpreters are ready to help you with any kind of translation. We have a team of translators who are well-trained and experienced.</p>
                 <div className='flex flex-col lg:gap-y-7 gap-y-9 lg:mt-12 mt-10'>
                     <Feature
