@@ -17,7 +17,7 @@ const Services = () => {
                 </div>
                 <p className='text-center w-[610px] mt-5 leading-8 text-[rgb(129,135,150)]'>We offer a wide range of services to help you achieve your goals. We are committed to providing you with the best possible service.</p>
             </div>
-            <div className='grid grid-cols-3 gap-10 mt-16'>
+            <div className='grid lg:grid-cols-3 grid-cols-2 gap-10 mt-16'>
                 <Service
                     imgUrl={S1}
                     title='Documents Translation'
