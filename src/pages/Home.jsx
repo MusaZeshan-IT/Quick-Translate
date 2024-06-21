@@ -10,12 +10,12 @@ const Home = () => {
     return (
         <div className='flex flex-col gap-y-24 pb-20'>
             <NavHero />
-            <div className='px-28 flex flex-col gap-y-24'>
+            <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 flex flex-col gap-y-24'>
                 <HowItWorks />
                 <UniqueFeatures />
             </div>
             <Cover />
-            <div className='px-28 flex flex-col gap-y-24'>
+            <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 flex flex-col gap-y-24'>
                 <CoveredLangs />
                 <Services />
             </div>

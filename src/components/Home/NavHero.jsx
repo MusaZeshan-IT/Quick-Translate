@@ -5,7 +5,7 @@ import Logo from '../../assets/logo.png';
 
 const NavHero = () => {
     return (
-        <div className='text-white px-28 h-[700px] w-full' style={{ backgroundImage: `url(${HeroBgImage})`, backgroundSize: 'cover' }}>
+        <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 text-white h-[700px] w-full' style={{ backgroundImage: `url(${HeroBgImage})`, backgroundSize: 'cover' }}>
             <nav>
                 <div className='h-20 flex justify-between items-center'>
                     <div className='flex items-center'>
