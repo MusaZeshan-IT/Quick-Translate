@@ -1,0 +1,9 @@
+.nav-hero {
+  background-image: url("../../assets/heroImages/hero-bg.png");
+}
+
+@media screen and (max-width: 1152px) {
+  .nav-hero {
+    background-image: url("../../assets/heroImages/hero-bg-sm.jpg");
+  }
+}

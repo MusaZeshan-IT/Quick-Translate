@@ -2,25 +2,29 @@ import React from 'react';
 import HeroBgImage from '../../assets/heroImages/hero-bg.png';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
+import './NavHero.css'
 
 const NavHero = () => {
     return (
-        <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 text-white h-[700px] w-full' style={{ backgroundImage: `url(${HeroBgImage})`, backgroundSize: 'cover' }}>
+        <div className={`nav-hero bg-center 2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 text-white h-[700px] w-full bg-cover `}>
             <nav>
                 <div className='h-20 flex justify-between items-center'>
                     <div className='flex items-center'>
                         <img className='h-[44px] me-2 rounded-[50%]' src={Logo} alt="" />
                         <h2 className='text-[24px] font-semibold tracking-wide'>Quick Translate</h2>
                     </div>
-                    <div className='flex items-center gap-x-14'>
-                        <div className='flex gap-x-8 text-sm font-semibold tracking-[1.8px]'>
+                    <div className='flex items-center lg-custom:gap-x-14 lg:gap-x-10 gap-x-5'>
+                        <div className='lg:flex hidden lg-custom:gap-x-8 gap-x-6 text-sm font-semibold tracking-[1.8px]'>
                             <Link>Home</Link>
                             <Link>About Us</Link>
                             <Link>Services</Link>
                             <Link>FAQ</Link>
                             <Link>Blog</Link>
                         </div>
-                        <button className='hover:bg-indigo-600 hover:border-none rounded-md border tracking-[1.5px] font-semibold text-xs border-white bg-blue-500 px-5 py-[10px]'>CONTACT US</button>
+                        <button className='lg:block hidden hover:bg-indigo-600 hover:border-none rounded-md border tracking-[1.5px] font-semibold text-xs border-white bg-blue-500 px-5 py-[10px]'>CONTACT US</button>
+                        <button className='lg:hidden flex justify-center items-center w-10 h-10 bg-[rgb(8,19,39)] rounded-[50%]'>
+                            <i className='fa-solid fa-bars'></i>
+                        </button>
                     </div>
                 </div>
                 <div className='mt-24'>
