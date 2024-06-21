@@ -1,5 +1,5 @@
 import React from 'react';
-import Handshake from '../assets/handshake.jpg'
+import Handshake from '../../assets/handshake.jpg'
 
 const Cover = () => {
     return (
