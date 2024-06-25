@@ -13,8 +13,8 @@ const Navbar = () => {
                 <div className='flex items-center lg-custom:gap-x-14 lg:gap-x-10 gap-x-5'>
                     <div className='lg:flex hidden lg-custom:gap-x-8 gap-x-6 text-sm font-semibold tracking-[1.8px]'>
                         <Link to="/">Home</Link>
-                        <Link>About Us</Link>
-                        <Link>Services</Link>
+                        <Link to="/about-us">About Us</Link>
+                        <Link to="/services">Services</Link>
                         <Link>FAQ</Link>
                         <Link>Blog</Link>
                     </div>

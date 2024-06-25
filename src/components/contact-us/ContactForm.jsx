@@ -14,7 +14,7 @@ const ContactForm = () => {
         e.preventDefault();
         emailjs.sendForm('service_m1dvgmy', 'template_f6aedsl', e.target, 'sLYMLJGbrXA3TxZVy')
             .then(() => {
-                formRef.current.reset();n
+                formRef.current.reset(); n
             })
     }
 
@@ -53,7 +53,7 @@ const ContactForm = () => {
                     </label>
                     <textarea rows={4} onFocus={() => setIsFocusedMessage(true)} onBlur={() => setIsFocusedMessage(false)} className={`${isFocusedMessage ? 'border-blue-800' : 'border-gray-400'} italic w-full focus:outline-none border-b-2 mt-8 px-1 text-[15px] text-blue-950`} required={true} name="message" id="message"></textarea>
                 </div>
-                <button className='w-[155px] transition-all duration-200 ease-in text-[13px] bg-yellow-400 font-semibold hover:text-white hover:bg-[rgb(255,193,7)] text-blue-950 rounded-lg py-3 xs:px-5 2xs-custom:px-4 px-3 tracking-[1.5px]'>SEND MESSAGE</button>
+                <button className='w-[155px] mt-3 transition-all duration-200 ease-in text-[13px] bg-yellow-400 font-semibold hover:text-white hover:bg-[rgb(255,193,7)] text-blue-950 rounded-lg py-3 xs:px-5 2xs-custom:px-4 px-3 tracking-[1.5px]'>SEND MESSAGE</button>
             </form>
         </div>
     );

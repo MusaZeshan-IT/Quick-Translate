@@ -4,7 +4,7 @@ import HowItWorks from '../components/HowItWorks';
 import UniqueFeatures from '../components/UniqueFeatures';
 import Cover from '../components/shared/Cover';
 import CoveredLangs from '../components/shared/CoveredLangs';
-import Services from '../components/shared/Services';
+import Services from '../components/shared/CoreServices';
 
 const Home = () => {
     console.log("Home Page Loaded");
