@@ -7,6 +7,7 @@ import CoveredLangs from '../components/shared/CoveredLangs';
 import Services from '../components/shared/Services';
 
 const Home = () => {
+    console.log("Home Page Loaded");
     return (
         <div className='flex flex-col gap-y-24 pb-20'>
             <NavHero />
