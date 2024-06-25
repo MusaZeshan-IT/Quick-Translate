@@ -1,5 +1,6 @@
 import React from 'react';
 import UniqueImg from '../assets/uniqueFeatures.jpeg'
+import UniqueImgTab from '../assets/uniqueFeatures-tab.jpeg'
 import Feature from './Feature';
 import Feature1 from '../assets/uniqueFeatures/quality1.png'
 import Feature2 from '../assets/uniqueFeatures/quality2.png'
@@ -7,11 +8,12 @@ import Feature3 from '../assets/uniqueFeatures/quality3.png'
 
 const UniqueFeatures = () => {
     return (
-        <div className='flex lg:flex-row flex-col lg:gap-x-24 gap-y-16'>
-            <div className='lg:w-1/2 w-full border-8 border-blue-500 xs:h-[500px] 2xs-custom:h-[430px] h-[380px] mt-10'>
-                <img className='xs:h-[550px] 2xs-custom:h-[480px] h-[430px] xs-custom:w-[500px] w-full relative bottom-10 left-10' src={UniqueImg} alt="" />
+        <div className='flex lg:flex-row-reverse flex-col lg:gap-x-24 gap-y-16'>
+            <div className='xl:w-[57%] lg:w-1/2 w-full border-8 border-blue-500 lg:block flex xl:h-[400px] lg:h-[500px] md:h-[520px] xs-custom:h-[370px] 2xs-custom:h-[500px] h-[380px] mt-10'>
+                <img className='xl:hidden lg:block xs-custom:hidden block lg:h-[550px] h-full w-full lg:relative bottom-10 left-10' src={UniqueImg} alt="" />
+                <img className='xl:block lg:hidden xs-custom:block hidden xl:h-[450px] lg:h-full w-full lg:relative bottom-10 left-10' src={UniqueImgTab} alt="" />
             </div>
-            <div className='lg:w-1/2'>
+            <div className='xl:w-[43%] lg:w-1/2'>
                 <h3 className='text-[rgb(60,146,255)] font-semibold text-[16.5px] tracking-wide'>High Professional Translation Agency</h3>
                 <h2 className='text-[rgb(19,40,126)] text-3xl font-black mt-3 xs-custom:xs-custom:w-[500px] leading-10'>Order Professional Translations & Interpreting in Just a Few Clicks</h2>
                 <p className='lg:mt-6 mt-4 text-[rgb(129,135,150)] leading-7'>Our team of professional translators and interpreters are ready to help you with any kind of translation. We have a team of translators who are well-trained and experienced.</p>
