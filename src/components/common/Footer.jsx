@@ -39,7 +39,7 @@ const Footer = () => {
                                     <h3 className='text-white font-semibold tracking-widest'>CONTACT US</h3>
                                     <div className='flex lg:flex-col flex-wrap text-[rgb(204,204,204)] mt-4 lg:gap-y-1 gap-x-8 gap-y-3'>
                                         <p className='tracking-wide'>+92 3079410053</p>
-                                        <p>zeshan.qaiser@gmail.com</p>
+                                        <p>musazeshan.it@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
