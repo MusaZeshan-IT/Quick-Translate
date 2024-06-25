@@ -14,14 +14,14 @@ const ContactForm = () => {
         e.preventDefault();
         emailjs.sendForm('service_m1dvgmy', 'template_f6aedsl', e.target, 'sLYMLJGbrXA3TxZVy')
             .then(() => {
-                formRef.current.reset();
+                formRef.current.reset();n
             })
     }
 
     return (
         <div className='w-full flex justify-center mt-24'>
             <form ref={formRef} onSubmit={sendEmail} className='flex flex-col items-center md:w-[750px] w-full gap-y-8' method='post'>
-                <div className='flex gap-x-10 w-full'>
+                <div className='flex xs:gap-x-10 2xs-custom:gap-x-8 2xs:gap-x-6 gap-x-5 w-full'>
                     {/* Name */}
                     <div className='flex flex-col w-full relative'>
                         <label htmlFor="name" className={`italic transition-all duration-300 absolute ${isFocusedName ? 'text-blue-800 -top-3 text-[13px]' : 'text-blue-900 top-1 text-sm'}`}>
