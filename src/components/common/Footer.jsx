@@ -14,10 +14,18 @@ const Footer = () => {
                         </div>
                         <p className='text-[rgb(204,204,204)] text-[15px] md-custom:w-96 sm-custom:w-[90%] mt-6 leading-[25px]'>Now you know that we are the best translating agnecy that you can find. We always aim not to leave any of our customers unsatisfied with our services.</p>
                         <div className='flex gap-x-5 mt-6'>
-                            <i className='fa-brands fa-facebook-f text-white text-2xl'></i>
-                            <i className='fa-brands fa-twitter text-white text-2xl'></i>
-                            <i className='fa-brands fa-instagram text-white text-2xl'></i>
-                            <i className='fa-brands fa-linkedin-in text-white text-2xl'></i>
+                            <Link to="">
+                                <i className='fa-brands fa-facebook-f text-white text-2xl'></i>
+                            </Link>
+                            <Link to="">
+                                <i className='fa-brands fa-twitter text-white text-2xl'></i>
+                            </Link>
+                            <Link to="">
+                                <i className='fa-brands fa-instagram text-white text-2xl'></i>
+                            </Link>
+                            <Link to="">
+                                <i className='fa-brands fa-linkedin-in text-white text-2xl'></i>
+                            </Link>
                         </div>
                     </div>
                     <div className='flex lg:justify-center mt-2'>
@@ -26,10 +34,10 @@ const Footer = () => {
                                 <div>
                                     <h3 className='text-white font-semibold tracking-widest'>NAVIGATE</h3>
                                     <div className='flex flex-wrap text-[rgb(204,204,204)] mt-4 gap-x-7 gap-y-3'>
-                                        <Link>Home</Link>
-                                        <Link>About Us</Link>
+                                        <Link to="/">Home</Link>
+                                        <Link to="/about-us">About Us</Link>
                                         <Link>FAQ</Link>
-                                        <Link>Services</Link>
+                                        <Link to="/services">Services</Link>
                                         <Link>Blog</Link>
                                     </div>
                                 </div>
