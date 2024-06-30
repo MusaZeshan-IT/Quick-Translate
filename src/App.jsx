@@ -8,7 +8,6 @@ import Services from './pages/Services.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import './App.css';
 import NavMenu from './components/common/NavMenu.jsx';
-import Navbar from './components/common/Navbar.jsx';
 
 const App = () => {
   const [showNavMenu, setShowNavMenu] = useState(false);
