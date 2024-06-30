@@ -12,7 +12,7 @@ export const NavMenuProvider = ({ children }) => {
     const handleCloseNavMenu = () => setShowNavMenu(false);
 
     return (
-        <NavMenuContext.Provider value={{ showNavMenu, setShowNavMenu }}>
+        <NavMenuContext.Provider value={{ showNavMenu, handleOpenNavMenu, handleCloseNavMenu }}>
             {children}
         </NavMenuContext.Provider>
     )

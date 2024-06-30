@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
+import { NavMenuContext } from '../../context/NavMenuContext';
 
-const NavMenu = ({ showNavMenu, handleCloseNavMenu }) => {
+const NavMenu = () => {
+    const { showNavMenu, handleCloseNavMenu } = useContext(NavMenuContext);
+
     useEffect(() => {
         if (showNavMenu) {
             document.body.style.overflow = 'hidden';
@@ -14,40 +17,58 @@ const NavMenu = ({ showNavMenu, handleCloseNavMenu }) => {
         };
     }, [showNavMenu]);
 
-    if (showNavMenu) {
-        return (
-            <div className='overflow-y-auto lg:hidden block z-20 fixed inset-0 bg-black bg-opacity-50 h-full w-full'>
-                <div className='bg-white flex md-custom:p-10 md:p-9 sm-custom:p-8 sm:p-7 xs-custom:p-6 p-5 justify-between'>
-                    <div>
-                        <nav className='flex flex-col justify-center py-5 tracking-wider'>
-                            <img className='h-20 w-48' src={Logo} alt="" />
-                            <div className='sm:w-96 w-40 border-t-2 border-black ms-5 mb-14'>
-                            </div>
-                            <div className='ms-6 grid sm:grid-cols-2 gap-x-16 gap-y-8 text-2xl font-semibold'>
-                                <Link to="/">HOME</Link>
-                                <Link to="/clothes">CLOTHES</Link>
-                                <Link to="/accessories">ACCESSORIES</Link>
-                                <Link to="/appliances">APPLIANCES</Link>
-                                <Link to="/loja-products">LOJA PRODUCTS</Link>
-                                <Link to="">ABOUT US</Link>
-                                <span className='sm-custom:hidden block'>
-                                    <Link>CONTACT US</Link>
-                                </span>
-                                <span className='xs:hidden block'>
-                                    <Link>LOGIN / REGISTER</Link>
-                                </span>
-                            </div >
-                        </nav >
-                    </div >
-                    <div className='mt-8 rounded-[50%] flex justify-center items-center bg-black h-10 w-10 p-2'>
-                        <i className='fa-solid fa-xmark text-3xl cursor-pointer text-white' onClick={() => handleCloseNavMenu()}></i>
-                    </div>
-                </div >
-            </div >
-        );
-    } else {
+    if (!showNavMenu) {
         return null;
     }
-}
+
+    return (
+        <div className='overflow-y-auto lg:hidden block z-20 fixed inset-0 bg-black bg-opacity-50 h-full w-full'>
+            <div className='bg-[rgb(0,43,107)] w-[360px] h-screen flex md-custom:p-7 md:p-6 sm-custom:p-5 p-4 justify-between'>
+                <div className='w-10/12'>
+                    <nav className='flex flex-col justify-center py-5 tracking-wider'>
+                        <img className='h-[75px] w-[75px] rounded-[50%] mb-14' src={Logo} alt="" />
+                        <div className='ms-3 grid text-white gap-y-8 text-[23px] font-semibold'>
+                            <Link to="/">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-solid fa-house text-2xl me-2'></i>
+                                    HOME
+                                </button>
+                            </Link>
+                            <Link to="/about-us">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-solid fa-users text-2xl me-2'></i>
+                                    ABOUT US
+                                </button>
+                            </Link>
+                            <Link to="/services">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-solid fa-headset text-2xl me-2'></i>
+                                    SERVICES
+                                </button>
+                            </Link>
+                            <Link to="">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-solid fa-newspaper text-2xl me-2'></i>
+                                    BLOG
+                                </button>
+                            </Link>
+                            <Link to="">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-regular fa-circle-question text-2xl me-2'></i>
+                                    FAQ
+                                </button>
+                            </Link>
+                        </div>
+                    </nav>
+                </div>
+                <div className='w-2/12 ms-16'>
+                    <div className='mt-[34px] rounded-lg flex justify-center items-center bg-[rgb(4,0,50)] h-9 w-9 p-2'>
+                        <i className='fa-solid fa-xmark text-2xl cursor-pointer text-[rgb(234,242,255)]' onClick={handleCloseNavMenu}></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
 
 export default NavMenu;
