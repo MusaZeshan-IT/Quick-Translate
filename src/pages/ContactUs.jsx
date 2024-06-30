@@ -1,12 +1,12 @@
 import React from 'react';
-import Hero from '../components/shared/Hero/Hero';
 import ContactForm from '../components/contact-us/ContactForm';
 import ContactBgImage from '../assets/heroImages/contact-hero-bg.jpg';
+import Navbar from '../components/common/Navbar';
 
 const ContactUs = () => {
     return (
         <div className='flex flex-col gap-y-24 pb-20'>
-            <Hero bgImgUrl={ContactBgImage} pageName='Contact Us' />
+            <Navbar bgImgUrl={ContactBgImage} pageName='Contact Us' />
             <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8'>
                 <div>
                     <div className='flex flex-col items-center'>

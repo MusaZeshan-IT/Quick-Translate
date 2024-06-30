@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavHero.css';
-import Navbar from '../common/Navbar';
+import NavLinks from '../common/NavLinks';
 
 const NavHero = () => {
     return (
         <div className={`nav-hero bg-center 2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8 text-white h-[700px] w-full bg-cover `}>
-            <Navbar />
+            <NavLinks />
             <div className='mt-24'>
                 <div className='flex items-center sm:mb-8 xs:mb-6 mb-5'>
                     <div className="me-2 2xs-custom:inline-block hidden w-8 h-[2px] bg-yellow-500"></div>
