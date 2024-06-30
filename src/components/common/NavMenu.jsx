@@ -23,10 +23,10 @@ const NavMenu = () => {
 
     return (
         <div className='overflow-y-auto lg:hidden block z-20 fixed inset-0 bg-black bg-opacity-50 h-full w-full'>
-            <div className='bg-[rgb(0,43,107)] w-[360px] h-screen flex md-custom:p-7 md:p-6 sm-custom:p-5 p-4 justify-between'>
+            <div className='bg-[rgb(0,43,107)] 2xs:w-[360px] w-full h-screen flex md-custom:p-7 md:p-6 sm-custom:p-5 p-4 justify-between'>
                 <div className='w-10/12'>
                     <nav className='flex flex-col justify-center py-5 tracking-wider'>
-                        <img className='h-[75px] w-[75px] rounded-[50%] mb-14' src={Logo} alt="" />
+                        <img className='h-[75px] w-[75px] rounded-[50%] mb-12' src={Logo} alt="" />
                         <div className='ms-3 grid text-white gap-y-8 text-[23px] font-semibold'>
                             <Link to="/">
                                 <button onClick={handleCloseNavMenu} type='button'>
@@ -57,6 +57,9 @@ const NavMenu = () => {
                                     <i className='fa-regular fa-circle-question text-2xl me-2'></i>
                                     FAQ
                                 </button>
+                            </Link>
+                            <Link to="/contact">
+                                <button onClick={handleCloseNavMenu} className='bg-[rgb(20,20,20)] mt-8 hover:bg-black text-white px-6 py-3 rounded-md text-lg' type="button">CONTACT US</button>
                             </Link>
                         </div>
                     </nav>
