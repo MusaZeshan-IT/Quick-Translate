@@ -36,7 +36,7 @@ const Footer = () => {
                                     <div className='flex flex-wrap text-[rgb(204,204,204)] mt-4 gap-x-7 gap-y-3'>
                                         <Link to="/">Home</Link>
                                         <Link to="/about-us">About Us</Link>
-                                        <Link>FAQ</Link>
+                                        <Link to="/faq">FAQ</Link>
                                         <Link to="/services">Services</Link>
                                         <Link>Blog</Link>
                                     </div>

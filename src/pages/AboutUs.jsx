@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../components/shared/Hero/Hero';
+import Hero from '../components/shared/Hero';
 import AboutBgImage from '../assets/heroImages/about-hero-bg.jpeg';
 import UniqueFeatures from '../components/UniqueFeatures';
 import HowItWorks from '../components/HowItWorks';

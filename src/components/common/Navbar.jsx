@@ -1,9 +1,9 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import NavHero from '../Home/NavHero';
-import Hero from '../shared/Hero/Hero';
+import Hero from '../shared/Hero';
 
-const Navbar = ({ bgImgUrl, pageName }) => {
+const Navbar = ({ bgImgUrl, pageName, pageTitle }) => {
     const location = useLocation();
     const currentPath = location.pathname;
 
@@ -12,7 +12,7 @@ const Navbar = ({ bgImgUrl, pageName }) => {
             {currentPath === "/" ? (
                 <NavHero />
             ) : (
-                <Hero pageName={pageName} bgImgUrl={bgImgUrl} />
+                <Hero pageName={pageName} pageTitle={pageTitle} bgImgUrl={bgImgUrl} />
             )}
         </>
     );

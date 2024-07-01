@@ -5,6 +5,7 @@ import Home from './pages/Home.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Services from './pages/Services.jsx';
 import AboutUs from './pages/AboutUs.jsx';
+import Faq from './pages/Faq.jsx';
 import NavMenu from './components/common/NavMenu.jsx';
 import { NavMenuProvider } from './context/NavMenuContext';
 import './App.css';
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/faq" element={<Faq />} />
           </Routes>
           <Footer />
         </Router>
