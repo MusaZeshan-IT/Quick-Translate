@@ -50,14 +50,14 @@ const FaqQuestions = () => {
                     <img className='xl:hidden lg:block xs-custom:hidden block lg:h-[550px] h-full w-full lg:relative bottom-10 left-10' src={FaqImgSm} alt="" />
                 </div>
                 <div className='lg:w-[48%] w-full mt-6'>
-                    <div className='h-full w-full flex flex-col'>
+                    <div className='h-full w-full flex flex-col gap-y-6'>
                         {/* First */}
                         <div className='h-full w-full'>
-                            <div className='bg-blue-700 hover:bg-blue-800 cursor-pointer px-7 py-3 rounded-xl' onClick={() => toggleAnswer(1)}>
-                                <p className='text-white text-[17px] tracking-wide'>What are the benefits of using our service?</p>
+                            <div className='bg-blue-700 hover:bg-blue-800 cursor-pointer lg-custom:px-7 lg:px-4 px-7 py-3 rounded-xl' onClick={() => toggleAnswer(1)}>
+                                <p className='text-white lg-custom:text-[17px] lg:text-[16.2px] text-[17px] tracking-wide'>What are the benefits of using our service?</p>
                             </div>
                             {showAnswer[1] && (
-                                <p className='text-[15.5px] tracking-wide text-gray-500 leading-7 mt-5 mb-8 ms-4'>
+                                <p className='lg-custom:text-[15.5px] lg:text-[15px] text-[15.5px] tracking-wide text-gray-500 leading-7 my-5 ms-4'>
                                     At Quick Translate, our expert translators ensure your documents are accurate and culturally appropriate. We deliver high-quality work quickly, offering a range of services from document translation to website localization, tailored to your needs.
                                 </p>
                             )}
@@ -65,11 +65,11 @@ const FaqQuestions = () => {
 
                         {/* Second */}
                         <div className='h-full w-full'>
-                            <div onClick={() => toggleAnswer(2)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer px-7 py-3 rounded-xl'>
-                                <p className='text-white text-[17px] tracking-wide'>How is this platform better than others?</p>
+                            <div onClick={() => toggleAnswer(2)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer lg-custom:px-7 lg:px-4 px-7 py-3 rounded-xl'>
+                                <p className='text-white lg-custom:text-[17px] lg:text-[16.2px] text-[17px] tracking-wide'>How is this platform better than others?</p>
                             </div>
                             {showAnswer[2] && (
-                                <p className='text-[15.5px] tracking-wide text-gray-500 leading-7 mt-5 mb-8 ms-4'>
+                                <p className='lg-custom:text-[15.5px] lg:text-[15px] text-[15.5px] tracking-wide text-gray-500 leading-7 my-5 ms-4'>
                                     Our company stands out with expert translators, fast delivery, and high-quality, accurate translations. Our personalized services, from document translation to website localization, are tailored to meet your specific needs, ensuring superior results every time.
                                 </p>
                             )}
@@ -77,11 +77,11 @@ const FaqQuestions = () => {
 
                         {/* Third */}
                         <div className='h-full w-full'>
-                            <div onClick={() => toggleAnswer(3)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer px-7 py-3 rounded-xl'>
-                                <p className='text-white text-[17px] tracking-wide'>What are the best features of our service?</p>
+                            <div onClick={() => toggleAnswer(3)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer lg-custom:px-7 lg:px-4 px-7 py-3 rounded-xl'>
+                                <p className='text-white lg-custom:text-[17px] lg:text-[16.2px] text-[17px] tracking-wide'>What are the best features of our service?</p>
                             </div>
                             {showAnswer[3] && (
-                                <p className='text-[15.5px] tracking-wide text-gray-500 leading-7 mt-5 mb-8 ms-4'>
+                                <p className='lg-custom:text-[15.5px] lg:text-[15px] text-[15.5px] tracking-wide text-gray-500 leading-7 my-5 ms-4'>
                                     We excel with a team of expert linguists, ensuring accurate, culturally appropriate translations. We offer rapid delivery and a range of tailored services, from business documents translation to website content, guaranteeing high-quality results for every project.
                                 </p>
                             )}
@@ -89,11 +89,11 @@ const FaqQuestions = () => {
 
                         {/* Fourth */}
                         <div className='h-full w-full'>
-                            <div onClick={() => toggleAnswer(4)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer px-7 py-3 rounded-xl'>
-                                <p className='text-white text-[17px] tracking-wide'>Why is this platform important to me?</p>
+                            <div onClick={() => toggleAnswer(4)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer lg-custom:px-7 lg:px-4 px-7 py-3 rounded-xl'>
+                                <p className='text-white lg-custom:text-[17px] lg:text-[16.2px] text-[17px] tracking-wide'>Why is this platform important to me?</p>
                             </div>
                             {showAnswer[4] && (
-                                <p className='text-[15.5px] tracking-wide text-gray-500 leading-7 mt-5 mb-8 ms-4'>
+                                <p className='lg-custom:text-[15.5px] lg:text-[15px] text-[15.5px] tracking-wide text-gray-500 leading-7 my-5 ms-4'>
                                     Our service is essential for you because it guarantees precise, culturally relevant translations delivered swiftly. Our expert team and customized services ensure your unique needs are met, enhancing your communication and helping you succeed in a global market.
                                 </p>
                             )}
@@ -101,11 +101,11 @@ const FaqQuestions = () => {
 
                         {/* Fifth */}
                         <div className='h-full w-full'>
-                            <div onClick={() => toggleAnswer(5)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer px-7 py-3 rounded-xl'>
-                                <p className='text-white text-[17px] tracking-wide'>How can I get started with Quick Translate?</p>
+                            <div onClick={() => toggleAnswer(5)} className='bg-blue-700 hover:bg-blue-800 cursor-pointer lg-custom:px-7 lg:px-4 px-7 py-3 rounded-xl'>
+                                <p className='text-white lg-custom:text-[17px] lg:text-[16.2px] text-[17px] tracking-wide'>How can I get started with Quick Translate?</p>
                             </div>
                             {showAnswer[5] && (
-                                <p className='text-[15.5px] tracking-wide text-gray-500 leading-7 mt-5 mb-8 ms-4'>
+                                <p className='lg-custom:text-[15.5px] lg:text-[15px] text-[15.5px] tracking-wide text-gray-500 leading-7 my-5 ms-4'>
                                     Getting started with Quick Translate is easy! Simply contact us through our website, provide the details of your translation project, and our team will promptly get in touch to guide you through the process. We're here to make your translation experience smooth and efficient.
                                 </p>
                             )}
