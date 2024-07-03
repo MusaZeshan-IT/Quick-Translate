@@ -1,12 +1,13 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import NavMenu from './components/common/NavMenu.jsx';
 import Footer from './components/common/Footer.jsx';
 import Home from './pages/Home.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Services from './pages/Services.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import Faq from './pages/Faq.jsx';
-import NavMenu from './components/common/NavMenu.jsx';
+import Blog from './pages/Blog.jsx';
 import { NavMenuProvider } from './context/NavMenuContext';
 import './App.css';
 
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/faq" element={<Faq />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
         </Router>
