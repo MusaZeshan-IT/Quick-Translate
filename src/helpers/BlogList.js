@@ -12,6 +12,7 @@ const BlogList = [
         id: 1,
         img: BlogImg1,
         author: 'John Doe',
+        rating: 3.2,
         title: 'Your Complete and Essential Legal Translation Guide',
         desc: 'Ensure precise legal translations for accurate and compliant document navigation.',
         fullDesc: {
@@ -25,6 +26,7 @@ const BlogList = [
         id: 2,
         img: BlogImg2,
         author: 'Mary Smith',
+        rating: 4.2,
         title: 'The Language-Memory Connection Explained',
         desc: 'Language and memory shape recall, revealing insights into cognition.',
         fullDesc: {
@@ -38,6 +40,7 @@ const BlogList = [
         id: 3,
         img: BlogImg3,
         author: 'Sarah Johnson',
+        rating: 4.0,
         title: 'Practical Tips and Skills for Arabic Language Mastery',
         desc: 'Improve Arabic with grammar, vocabulary practice, native speakers, and Arabic media.',
         fullDesc: {
@@ -51,6 +54,7 @@ const BlogList = [
         id: 4,
         img: BlogImg4,
         author: 'Michael Brown',
+        rating: 4.5,
         title: 'Global Market Access with Expert Translation',
         desc: 'Reach global markets with precise translation, engaging through multilingual communication.',
         fullDesc: {
@@ -64,6 +68,7 @@ const BlogList = [
         id: 5,
         img: BlogImg5,
         author: 'Emily Davis',
+        rating: 3.5,
         title: 'The Importance of Helping English Language Learners',
         desc: 'Assisting English learners integrates them into communities and boosts their confidence.',
         fullDesc: {
@@ -77,6 +82,7 @@ const BlogList = [
         id: 6,
         img: BlogImg6,
         author: 'David Wilson',
+        rating: 5,
         title: 'Future Translation Tech for Language Barriers',
         desc: 'Tips for precise legal translation ensure compliance and confident navigation.',
         fullDesc: {

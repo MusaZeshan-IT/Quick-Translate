@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavLinks from '../common/NavLinks';
 
-const Hero = ({ pageName = "Unknown", pageTitle, bgImgUrl }) => {
+const Hero = ({ pageName = "Unknown", pageTitle, bgImgUrl, previousPageName, isPrevPage = false }) => {
     return (
         <div style={{ backgroundImage: `url(${bgImgUrl})` }} className="relative text-white h-[400px] w-full hero-cont bg-center bg-cover"> {/* Apply hero-cont here */}
             <div className="absolute inset-0 bg-[rgba(0,27,136,0.8)] bg-opacity-70 h-full"></div> {/* Blue overlay */}
@@ -15,6 +15,14 @@ const Hero = ({ pageName = "Unknown", pageTitle, bgImgUrl }) => {
                             <h2 className='text-[13px] font-meidum tracking-wide'>HOME</h2>
                         </Link>
                         <span className='text-gray-400 text-[13px] mx-2'>/</span>
+                        {isPrevPage ? (
+                            <>
+                                <Link to={`/${previousPageName}`}>
+                                    <h2 className='text-[13px] font-meidum tracking-wide'>{previousPageName.toLocaleUpperCase()}</h2>
+                                </Link>
+                                <span className='text-gray-400 text-[13px] mx-2'>/</span>
+                            </>
+                        ) : (null)}
                         <h2 className='text-[13px] font-meidum tracking-wide'>{pageName.toLocaleUpperCase()}</h2>
                     </div>
                 </div>
