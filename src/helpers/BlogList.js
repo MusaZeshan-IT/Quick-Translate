@@ -34,21 +34,21 @@ const BlogList = [
         img: BlogImg4,
         title: 'Global Market Access with Expert Translation',
         desc: 'Reach global markets with precise translation, engaging through multilingual communication.',
-        releaseDate: 'January 1, 2022',
+        releaseDate: 'May 28, 2022',
     },
     {
         id: 5,
         img: BlogImg6,
         title: 'The Importance of Helping English Language Learners',
         desc: 'Assisting English learners integrates them into communities and boosts their confidence.',
-        releaseDate: 'January 1, 2022',
+        releaseDate: 'February 5, 2024',
     },
     {
         id: 6,
         img: BlogImg5,
         title: 'Future Translation Tech for Language Barriers',
         desc: 'Tips for precise legal translation ensure compliance and confident navigation.',
-        releaseDate: 'January 1, 2022',
+        releaseDate: 'April 9, 2024',
     },
 ]
 
