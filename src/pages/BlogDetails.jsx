@@ -12,7 +12,7 @@ const BlogDetails = () => {
     return (
         <div className='flex flex-col gap-y-24 pb-28 bg-gray-100'>
             <Navbar isPrevPage={true} previousPageName='blog' pageName='Blog Details' bgImgUrl={BlogDetailsBgImage} />
-            <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 px-8'>
+            <div className='2xl:px-28 xl-custom:px-24 xl:px-20 lg-custom:px-14 lg:px-12 md-custom:px-10 2xs-custom:px-8 px-6'>
                 <PostDetailsCard blog={blog}/>
             </div>
         </div>
