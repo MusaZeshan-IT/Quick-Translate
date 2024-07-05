@@ -7,7 +7,7 @@ const Service = ({ imgUrl, title, desc }) => {
     const location = useLocation();
 
     return (
-        <div className={`shadow-[0px_0px_20px_rgba(0,0,0,0.13)] flex p-5 flex-col items-center justify-center bg-[rgb(247,247,247)] ${location.pathname === '/services' ? 'h-[340px]' : 'h-[380px]'} rounded-lg`}>
+        <div className={`shadow-[0px_0px_20px_rgba(0,0,0,0.15)] flex p-5 flex-col items-center justify-center bg-[rgb(247,247,247)] ${location.pathname === '/services' ? 'h-[340px]' : 'h-[380px]'} rounded-lg`}>
             <div className='bg-blue-200 p-5 rounded-[50%]'>
                 <img className='sm:h-16 sm:w-16 2xs-custom:h-20 2xs-custom:w-20 h-16 w-16' src={imgUrl} alt="" />
             </div>

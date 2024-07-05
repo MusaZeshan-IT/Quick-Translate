@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs.jsx';
 import Services from './pages/Services.jsx';
 import AboutUs from './pages/AboutUs.jsx';
 import Faq from './pages/Faq.jsx';
+import Error404 from './pages/Error404.jsx';
 import Blog from './pages/Blog.jsx';
 import BlogDetails from './pages/BlogDetails.jsx';
 import { NavMenuProvider } from './context/NavMenuContext';
@@ -26,6 +27,7 @@ const App = () => {
             <Route path="/faq" element={<Faq />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:blogId" element={<BlogDetails />} />
+            <Route path="/*" element={<Error404 />} />
           </Routes>
           <Footer />
         </Router>
