@@ -10,9 +10,9 @@ const Hero = ({ bgImgUrl }) => {
                 <div className='mt-[115px] w-full flex flex-col justify-center items-center'>
                     <h1 className='text-[25px] font-semibold tracking-wider'>Page Not Found</h1>
                     <h1 className='text-[120px] font-black tracking-wider mt-12'>404</h1>
-                    <p className='font-semibold text-xl tracking-wide mt-7'>The page you are looking for does not exist.</p>
+                    <p className='font-semibold text-xl tracking-wide text-center mt-7'>The page you are looking for does not exist.</p>
                     <Link to="/">
-                        <button className='bg-yellow-500 font-bold hover:relative hover:bottom-1 mt-20 text-lg hover:text-white hover:bg-yellow-600 text-blue-950 rounded-lg py-3 xs:px-5 2xs-custom:px-4 px-3 tracking-[1.5px]'>BACK TO HOME</button>
+                        <button className='bg-yellow-500 font-bold hover:relative hover:bottom-1 mt-20 xs:text-lg text-[17px] hover:text-white hover:bg-yellow-600 text-blue-950 rounded-lg py-3 px-5 tracking-[1.5px]'>BACK TO HOME</button>
                     </Link>
                 </div>
             </div>
