@@ -2,7 +2,7 @@
 
 Welcome to Quick Translate, your go-to destination for precise and culturally nuanced document translations. Our team of experienced professionals is here to offer you top-tier translation and localization services to meet all your global communication needs.
 
-![Quick Translate Logo](/src/assets/logo-sm.png)
+![Quick Translate Logo](/src/assets/readme/logo-sm.png)
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Delivering precise and culturally nuanced document translations to meet all your
 - **Website Translation**: Accurately translating your website to engage diverse global audiences.
 - **Apostille & Legalization Services**: Ensuring your documents meet international standards.
 
-![Services Graphic](path/to/services_graphic.png)
+![Services](/src/assets/readme/services.png)
 
 ## Main Titles
 
@@ -34,7 +34,7 @@ Our team of professional translators is here to help you translate your document
 
 Our team of professional translators and interpreters is ready to help you with any kind of translation.
 
-![Translation Image](path/to/translation_image.png)
+![Main Translation Image](/src/assets/readme/translation.png)
 
 ## How it Works
 
@@ -45,7 +45,7 @@ We make our process as simple as possible so that you can focus on what matters 
 3. **Check Translation**: Do not forget to check the translation before delivery.
 4. **Confirm Delivery**: When you are ready, make sure to confirm the delivery.
 
-![Process Infographic](path/to/process_infographic.png)
+![Process](/src/assets/readme/process.png)
 
 ## Additional Content
 
@@ -61,7 +61,7 @@ Trust our expansive network of translators for accurate and reliable global comm
 
 Partner with our committed and skilled professionals for personalized solutions and outstanding outcomes.
 
-![Global Network](path/to/global_network.png)
+![Unique Features](/src/assets/readme/features.png)
 
 ## Images
 
@@ -75,7 +75,7 @@ To engage users, consider including the following images:
 
 ---
 
-We hope you find Quick Translate to be your reliable partner in all your translation needs. For more information, visit our website or contact us at [contact@example.com](mailto:contact@example.com).
+We hope you find Quick Translate to be your reliable partner in all your translation needs. For more information, visit our website or contact us at [contact@example.com](mailto:musazeshan.it@gmail.com).
 
 ---
 
