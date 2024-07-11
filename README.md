@@ -2,7 +2,7 @@
 
 Welcome to Quick Translate, your go-to destination for precise and culturally nuanced document translations. Our team of experienced professionals is here to offer you top-tier translation and localization services to meet all your global communication needs.
 
-![Quick Translate Logo](/src/assets/logo.png)
+![Quick Translate Logo](/src/assets/logo-sm.png)
 
 ## Table of Contents
 
