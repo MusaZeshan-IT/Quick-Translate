@@ -61,7 +61,7 @@ Trust our expansive network of translators for accurate and reliable global comm
 
 Partner with our committed and skilled professionals for personalized solutions and outstanding outcomes.
 
-![Unique Features](/src/assets/readme/features.png)
+![Unique Features](/src/assets/readme/features.jpeg)
 
 ## Images
 
