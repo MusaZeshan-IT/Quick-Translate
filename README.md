@@ -63,20 +63,10 @@ Partner with our committed and skilled professionals for personalized solutions 
 
 ![Unique Features](/src/assets/readme/features.jpeg)
 
-## Images
+## Home Page Full Preview
 
-To engage users, consider including the following images:
-
-- **Homepage**: Banner image or logo.
-- **Services**: Graphics or icons representing each service.
-- **Main Titles**: Engaging images related to translations and interpreting.
-- **How it Works**: Infographic or flowchart explaining the process.
-- **Additional Content**: Graphics showing global network or dedicated team.
+![Home Page](/src/assets/readme/home.png)
 
 ---
 
 We hope you find Quick Translate to be your reliable partner in all your translation needs. For more information, visit our website or contact us at [contact@example.com](mailto:musazeshan.it@gmail.com).
-
----
-
-Feel free to customize the image paths and any additional details to better match your website's specific content and design.
