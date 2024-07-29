@@ -5,7 +5,7 @@ const CourseCard = ({ title, duration, description, medium, courseFee }) => {
     return (
         <div>
             <Link to={`/courses/${title}`}>
-                <div className="p-6 h-60 bg-[rgb(0,30,200)] text-white rounded-xl shadow-lg shadow-blue-300 overflow-hidden">
+                <div className="p-6 flex flex-col justify-center bg-[rgb(0,30,200)] text-white rounded-xl shadow-lg shadow-blue-300 overflow-hidden">
                     <div className='flex gap-x-4'>
                         <div>
                             <i className='fa-regular fa-clock'></i>

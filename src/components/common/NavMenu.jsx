@@ -52,6 +52,12 @@ const NavMenu = () => {
                                     BLOG
                                 </button>
                             </Link>
+                            <Link to="/courses">
+                                <button onClick={handleCloseNavMenu} type='button'>
+                                    <i className='fa-solid fa-graduation-cap text-2xl me-2'></i>
+                                    COURSES
+                                </button>
+                            </Link>
                             <Link to="/faq">
                                 <button onClick={handleCloseNavMenu} type='button'>
                                     <i className='fa-regular fa-circle-question text-2xl me-2'></i>
