@@ -17,7 +17,7 @@ const Courses = () => {
                         </div>
                         <p className='text-center sm:w-[610px] w-full mt-5 leading-8 text-[rgb(129,135,150)]'>We offer a wide range of services to help you achieve your goals. We are committed to providing you with the best possible service.</p>
                     </div>
-                    <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-16'>
+                    <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl-custom:gap-10 xl:gap-8 lg:gap-5 md:gap-7 gap-6 mt-16'>
                         <CourseCard
                             title="Islamic Law of Inheritance"
                             duration="17 days"
