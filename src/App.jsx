@@ -10,6 +10,7 @@ import Faq from './pages/Faq.jsx';
 import Error404 from './pages/Error404.jsx';
 import Blog from './pages/Blog.jsx';
 import BlogDetails from './pages/BlogDetails.jsx';
+import Courses from './pages/Courses.jsx';
 import { NavMenuProvider } from './context/NavMenuContext';
 import './App.css';
 
@@ -27,6 +28,7 @@ const App = () => {
             <Route path="/faq" element={<Faq />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:blogId" element={<BlogDetails />} />
+            <Route path="/courses" element={<Courses />} />
             <Route path="/*" element={<Error404 />} />
           </Routes>
           <Footer />

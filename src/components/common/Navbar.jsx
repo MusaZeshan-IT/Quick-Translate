@@ -18,4 +18,4 @@ const Navbar = ({ bgImgUrl, pageName, pageTitle, previousPageName, isPrevPage })
     );
 };
 
-export default Navbar;
+export default Navbar
