@@ -23,7 +23,7 @@ const NavMenu = () => {
 
     return (
         <div className='overflow-y-auto lg:hidden block z-20 h-screen fixed inset-0 bg-black bg-opacity-50 w-full'>
-            <div className='bg-[rgb(0,43,107)] 2xs:w-[360px] w-full flex md-custom:p-7 md:p-6 sm-custom:p-5 p-4 justify-between'>
+            <div className='bg-[rgb(0,43,107)] 2xs:w-[360px] w-full h-screen flex md-custom:p-7 md:p-6 sm-custom:p-5 p-4 justify-between'>
                 <div className='w-10/12'>
                     <nav className='flex flex-col justify-center py-5 tracking-wider'>
                         <img className='h-[75px] w-[75px] rounded-[50%] mb-12' src={Logo} alt="" />

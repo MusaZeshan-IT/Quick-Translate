@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const CourseCard = ({ title, duration, description, medium, courseFee }) => {
+const CourseCard = ({ title, duration, description, medium, courseFee, urlName }) => {
     return (
         <div>
-            <Link to={`/courses/${title}`}>
+            <Link to={`/courses/${urlName}`}>
                 <div className="xl:p-6 lg:p-5 p-6 lg-custom:h-60 lg:h-[280px] md:h-64 sm:h-72 2xs-custom:h-60 2xs:h-72 h-80 bg-[rgb(0,30,200)] text-white rounded-xl shadow-lg shadow-blue-300 overflow-hidden">
                     <div className='flex gap-x-4'>
                         <div>

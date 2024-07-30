@@ -3,6 +3,7 @@ import CoursesBgImage from '../assets/heroImages/courses-hero-bg.jpg';
 import Navbar from '../components/common/Navbar';
 import CourseCard from '../components/courses/CourseCard';
 import CourseComingSoonCard from '../components/courses/CourseComingSoon';
+import CourseList from '../helpers/CourseList';
 
 const Courses = () => {
     return (
@@ -18,22 +19,9 @@ const Courses = () => {
                         <p className='text-center sm:w-[610px] w-full mt-5 leading-8 text-[rgb(129,135,150)]'>We offer a wide range of services to help you achieve your goals. We are committed to providing you with the best possible service.</p>
                     </div>
                     <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl-custom:gap-10 xl:gap-8 lg:gap-5 md:gap-7 gap-6 mt-16'>
-                        <CourseCard
-                            title="Islamic Law of Inheritance"
-                            duration="17 days"
-                            description="We are excited to teach you the core principles and key rules of Islamic inheritance law."
-                            medium="Zoom"
-                            courseFee="$3.59"
-                            instructor="Mufti Bilal Sabir"
-                        />
-                        <CourseCard
-                            title="Persian Language Course"
-                            duration="15 days"
-                            description="Achieve fluency and mastery with our Persian Language Course, covering grammar and vocabulary."
-                            medium="Zoom"
-                            courseFee="$3.59"
-                            instructor="Mufti Bilal Sabir"
-                        />
+                        {CourseList.map((course) => (
+                            <CourseCard key={course.id} urlName={course.urlName} title={course.title} description={course.desc} duration={course.duration} medium={course.medium} courseFee={course.courseFee} instructor={course.instructor} />
+                        ))}
                         <CourseComingSoonCard />
                     </div>
                 </div>
