@@ -1,6 +1,10 @@
 # Quick Translate
 
-Welcome to Quick Translate, your go-to destination for precise and culturally nuanced document translations. Our team of experienced professionals is here to offer you top-tier translation and localization services to meet all your global communication needs.
+Welcome to our Translation Agency website, meticulously crafted to provide top-tier translation services across a wide array of languages. Built using modern web technologies such as HTML, CSS, JavaScript, Tailwind CSS, and React, this website exemplifies the best practices in web development, ensuring a seamless and professional experience for all users.
+
+Our platform is designed to cater to the diverse needs of individuals and businesses, offering translation solutions for documents, websites, and various forms of text. With a focus on delivering exceptional UI and UX, we've created an intuitive interface that makes it easy for clients to request translations and interact with our services.
+
+This website reflects our commitment to quality, professionalism, and user satisfaction, positioning us as a reliable partner in bridging language barriers.
 
 ![Quick Translate Logo](/src/assets/readme/logo-sm.png)
 
